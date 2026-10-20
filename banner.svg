@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#1e1748"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="64" y="132" font-size="54" font-weight="700" fill="#f8fafc">Daniel Maymon Ramon</text>
+    <text x="66" y="182" font-size="28" font-weight="600" fill="url(#accent)">AI Engineer</text>
+    <text x="66" y="222" font-size="19" fill="#94a3b8">Agents, and the tools to see what they actually did</text>
+  </g>
+
+  <!-- an agent run as a trace: each step a node -->
+  <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15">
+    <line x1="760" y1="70" x2="760" y2="232" stroke="#334155" stroke-width="2"/>
+    <circle cx="760" cy="70" r="7" fill="#22d3ee"/>
+    <text x="782" y="75" fill="#cbd5e1">model call</text>
+    <circle cx="760" cy="124" r="7" fill="#60a5fa"/>
+    <text x="782" y="129" fill="#cbd5e1">tool: get_run</text>
+    <circle cx="760" cy="178" r="7" fill="#a78bfa"/>
+    <text x="782" y="183" fill="#cbd5e1">"done"</text>
+    <circle cx="760" cy="232" r="7" fill="#f472b6"/>
+    <text x="782" y="237" fill="#f9a8d4">really? check the trace</text>
+  </g>
+</svg>
