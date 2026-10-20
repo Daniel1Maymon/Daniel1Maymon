@@ -1,6 +1,6 @@
-<img src="banner.svg" alt="Daniel Maymon Ramon - AI Engineer" width="100%">
+<img src="banner.svg" alt="Daniel Maymon Ramon - Backend & AI Engineer" width="100%">
 
-AI engineer. I build agents, and then I build something that shows me what the agent actually did, because an LLM saying "done" doesn't mean much.
+Backend & AI engineer. I build agents, and then I build something that shows me what the agent actually did, because an LLM saying "done" doesn't mean much.
 
 These days most of my time goes into agents running on a self-hosted OpenClaw server (one of them answers baby sleep questions in my family's Telegram group), and tools for reading their traces.
 
