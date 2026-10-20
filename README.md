@@ -1,4 +1,4 @@
-# Daniel Maymon
+# Daniel Maymon Ramon
 
 AI engineer. I build agents, and then I build something that shows me what the agent actually did, because an LLM saying "done" doesn't mean much.
 
