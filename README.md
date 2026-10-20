@@ -4,6 +4,12 @@ Backend & AI engineer. I build agents, and then I build something that shows me 
 
 These days most of my time goes into agents running on a self-hosted OpenClaw server (one of them answers baby sleep questions in my family's Telegram group), and tools for reading their traces.
 
+## Rank Air
+
+[rank-air.com](https://www.rank-air.com/) ([code](https://github.com/Daniel1Maymon/israel-flights-etl)) - compares how airlines actually perform at Ben Gurion (delays, cancellations), with up to a year of history. It pulls the official flight data from data.gov.il every 15 minutes into Postgres, and serves it through FastAPI to a React dashboard.
+
+You can also just ask it things, like "which airline should I fly to Paris and why?", in Hebrew or English. The LLM never touches the database directly: common questions run through queries I wrote and reviewed, and anything else goes through a read-only DB user plus a SQL validator that only lets a single SELECT through.
+
 ## Agents
 
 - [run-investigation-agent](https://github.com/Daniel1Maymon/run-investigation-agent) - give it a run ID from another agent and it goes through the trace and tells you if the task really got done, and if not, where it broke. Python, FastAPI, OpenRouter.
